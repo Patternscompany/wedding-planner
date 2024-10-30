@@ -20395,4 +20395,28 @@ wpo-hero-slider-s4
 }
 
 
+
+.content-section {
+  padding: 60px 0;
+}
+
+.content-section h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.content-section .subtitle {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.content-section .btn-primary {
+  background-color: #5a5af9;
+  border: none;
+  margin-top: 20px;
+}
+
+
+
 /*# sourceMappingURL=style.css.map */
