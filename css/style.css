@@ -11836,6 +11836,10 @@ wpo-hero-slider-s4
   border-radius: 10px;
 }
 
+.wpo-Service-img img{
+  height: 200px !important;
+}
+
 .wpo-Service-section-s3 .wpo-Service-item .wpo-Service-text a {
   bottom: 15px;
 }
