@@ -2466,6 +2466,9 @@ a.ui-button:active,
 .wpo-site-header .row {
   width: 100%;
 }
+.top-bar{
+padding-block: 1rem !important;
+}
 
 @media (max-width: 991px) {
   .wpo-site-header .navigation {
@@ -2489,8 +2492,8 @@ a.ui-button:active,
     /*** hover effect ***/
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
-    margin-right: -60px;
+    justify-content: flex-end;
+    /* margin-right: -60px; */
   }
 
   .wpo-site-header #navbar li {
@@ -2512,6 +2515,9 @@ a.ui-button:active,
     border-radius: 3px;
   }
 
+  .wpo-site-header #navbar>ul>li>a.active{
+    color: #D4B0A5;
+  }
   .wpo-site-header #navbar>ul>li>a:hover:before,
   .wpo-site-header #navbar>ul>li.current-menu-item a:before,
   .wpo-site-header #navbar>ul>li>a.active:before {
@@ -3215,7 +3221,7 @@ a.ui-button:active,
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
-    padding: 45px 20px;
+    padding: 15px 20px;
     display: block;
     color: #323232;
     position: relative;
@@ -3225,7 +3231,7 @@ a.ui-button:active,
 
 @media screen and (min-width: 992px) and (max-width: 1870px) {
   .wpo-site-header #navbar>ul>li>a {
-    padding: 45px 18px;
+    padding: 15px 18px;
   }
 }
 
@@ -3633,7 +3639,7 @@ a.ui-button:active,
 
 @media (max-width: 1500px) {
   .wpo-site-header #navbar>ul>li>a {
-    padding: 45px 15px;
+    padding: 10px 15px;
   }
 
   .wpo-site-header {
@@ -3643,13 +3649,13 @@ a.ui-button:active,
 
 @media (max-width: 1400px) {
   .wpo-site-header #navbar>ul>li>a {
-    padding: 30px 10px;
+    padding: 30px 10px 10px 10px;
   }
 }
 
 @media (max-width: 1200px) {
   .wpo-site-header #navbar>ul>li>a {
-    padding: 30px 6px;
+    padding: 10px 6px;
     font-size: 14px;
   }
 }
@@ -3717,7 +3723,7 @@ a.ui-button:active,
 
 .wpo-header-style-3 #navbar>ul>li>a,
 .wpo-header-style-4 #navbar>ul>li>a {
-  color: #323232;
+  color: #fff;
 }
 
 .wpo-header-style-3 .header-right .cart-toggle-btn .fi,
