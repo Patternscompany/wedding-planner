@@ -3732,6 +3732,11 @@ padding-block: 1rem !important;
 .wpo-header-style-4 .header-right .search-toggle-btn .fi {
   color: #323232;
 }
+.wpo-site-header .navigation.sticky-header #navbar > ul > li > a{
+color: #000;
+}
+.wpo-site-header .navigation.sticky-header #navbar > ul > li > a.active{
+  color: #D4B0A5;}
 
 @media (max-width: 991px) {
   .wpo-site-header #navbar>ul>li>a {
