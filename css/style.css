@@ -6211,13 +6211,13 @@ wpo-hero-slider-s4
   position: relative;
   font-size: 15px;
   overflow: hidden;
-  padding: 50px 0;
+  padding: 20px 0;
   background: rgba(212, 176, 165, 0.1);
 }
 
 @media (max-width: 991px) {
   .wpo-site-footer {
-    padding: 50px 0;
+    padding: 20px 0;
   }
 }
 /* .bi-arrow-right::before {
@@ -6358,7 +6358,7 @@ wpo-hero-slider-s4
 }
 
 .wpo-site-footer .copyright {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 @media (max-width: 767px) {
