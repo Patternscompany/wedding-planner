@@ -3410,7 +3410,7 @@ padding-block: 1rem !important;
     font-weight: 600;
   }
 
-  .wpo-site-header #navbar>ul .menu-item-has-children>a:before {
+  /* .wpo-site-header #navbar>ul .menu-item-has-children>a:before {
     font-family: "themify";
     content: "\e649";
     font-size: 11px;
@@ -3422,7 +3422,7 @@ padding-block: 1rem !important;
     transform: translateY(-50%);
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-  }
+  } */
 
   .wpo-site-header #navbar>ul .menu-item-has-children>a.rotate:before {
     -webkit-transform: rotate(90deg);
