@@ -20464,8 +20464,10 @@ wpo-hero-slider-s4
 
 .portfolio-item img {
   width: 100%;
-  height: 100%;
+  height: 300px;
+  object-fit: cover;
   transition: transform 0.3s ease; /* Smooth transition for scaling */
+  border-radius: 5%;
 }
 
 .portfolio-item:hover img {
