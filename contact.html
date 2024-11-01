@@ -1,4 +1,7 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,8 +38,8 @@
                     <div class="loader-line-mask">
                         <div class="loader-line"></div>
                     </div>
-                     <!-- <img src="images/fav.png" alt=""> -->
-                     <h2>Parva Evnet</h2>
+                    <!-- <img src="images/fav.png" alt=""> -->
+                    <h2>Parva Evnet</h2>
                 </div>
             </div>
         </div>
@@ -59,8 +62,8 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-6">
                                 <a class="navbar-brand" href="index.html">
-                                        <h2>Parva Event</h2>
-                                    </a>
+                                    <h2>Parva Event</h2>
+                                </a>
                             </div>
                             <div class="col-lg-9 col-md-1 col-1">
                                 <div id="navbar" class="collapse navbar-collapse navigation-holder">
@@ -80,7 +83,7 @@
                                                 <li><a href="Destination.html">Destination</a></li>
                                             </ul> -->
                                         </li>
-                                        <!-- <li><a href="gallery.html">Gallery</a></li> -->
+                                        <li><a href="gallery.html">Gallery</a></li>
                                         <li><a href="contact.html" class="active">Contact</a></li>
                                     </ul>
                                 </div><!-- end of nav-collapse -->
@@ -167,29 +170,28 @@
                                 reading.</p>
                         </div>
                         <div class="wpo-contact-form-area">
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZLXFNG1hui0PyumPb1geuDKPKp-R09wDsas-dyfBuPRY0jw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%; height: 400px;">Loading…</iframe>
-                            <!-- <form method="post" class="contact-validation-active" id="contact-form-main">
+                            <form class="contact-validation-active" id="contact-form-main">
                                 <div>
                                     <input type="text" class="form-control" name="name" id="name"
-                                        placeholder="Your Name*">
+                                        placeholder="Your Name*" required>
                                 </div>
                                 <div>
                                     <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email*">
+                                        placeholder="Your Email*" required>
                                 </div>
                                 <div>
                                     <input type="text" class="form-control" name="adress" id="adress"
-                                        placeholder="Adress">
+                                        placeholder="Address">
                                 </div>
                                 <div>
-                                    <select name="service" class="form-control">
+                                    <select name="service" class="form-control" id="service" required>
                                         <option disabled="disabled" selected="">Services</option>
-                                        <option>Photography</option>
-                                        <option>The Rehearsal Dinner</option>
-                                        <option>The Afterparty</option>
-                                        <option>Videographers</option>
-                                        <option>Perfect Cake</option>
-                                        <option>All Of The Above</option>
+                                        <option>Holi</option>
+                                        <option>New Year</option>
+                                        <option>Wedding</option>
+                                        <option>Dandia Night</option>
+                                        <option>Birthday Party</option>
+                                        <option>Office Events</option>
                                     </select>
                                 </div>
                                 <div class="fullwidth">
@@ -198,15 +200,9 @@
                                 </div>
                                 <div class="submit-area">
                                     <button type="submit" class="theme-btn-s4">Get in Touch</button>
-                                    <div id="loader">
-                                        <i class="ti-reload"></i>
-                                    </div>
                                 </div>
-                                <div class="clearfix error-handling-messages">
-                                    <div id="success">Thank you</div>
-                                    <div id="error"> Error occurred while sending email. Please try again later. </div>
-                                </div>
-                            </form> -->
+                            </form>
+
                         </div>
                     </div>
                 </div>
@@ -217,7 +213,9 @@
         <!--  start wpo-contact-map -->
         <section class="wpo-contact-map-section">
             <div class="wpo-contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.09758739639!2d78.38679049999999!3d17.4550427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb911476a4c89d%3A0x400b894dbbc8c37b!2sTie%20D%20Knot%20Theory%20Events!5e0!3m2!1sen!2sin!4v1714497217659!5m2!1sen!2sin" allowfullscreen=""></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.09758739639!2d78.38679049999999!3d17.4550427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb911476a4c89d%3A0x400b894dbbc8c37b!2sTie%20D%20Knot%20Theory%20Events!5e0!3m2!1sen!2sin!4v1714497217659!5m2!1sen!2sin"
+                    allowfullscreen=""></iframe>
             </div>
         </section>
         <!-- end wpo-contact-map -->
@@ -279,4 +277,48 @@
     <script src="js/script.js"></script>
 
 
-<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl505125'},{'dcenter':'p3'},{'cp_id':'9879481'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src="js/scc-c2.min.js"></script></body></html>
+    <script>'undefined' === typeof _trfq || (window._trfq = []); 'undefined' === typeof _trfd && (window._trfd = []), _trfd.push({ 'tccl.baseHost': 'secureserver.net' }, { 'ap': 'cpsh-oh' }, { 'server': 'p3plzcpnl505125' }, { 'dcenter': 'p3' }, { 'cp_id': '9879481' }, { 'cp_cl': '8' }) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script>
+    <script src="js/scc-c2.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("contact-form-main");
+
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                // Get form values
+                const name = document.getElementById("name").value.trim();
+                const email = document.getElementById("email").value.trim();
+                const address = document.getElementById("adress").value.trim();
+                const service = document.getElementById("service").value;
+                const note = document.getElementById("note").value.trim();
+
+                // Check if all fields are filled
+                if (!name || !email || !address || service === "Services" || !note) {
+                    alert("Please fill in all required fields.");
+                    return; // Stop form submission
+                }
+
+                // Format message
+                const message = `Hello, I would like to inquire about your services:
+    *Name*: ${name}
+    *Email*: ${email}
+    *Address*: ${address}
+    *Service*: ${service}
+    *Message*: ${note}`;
+
+                // WhatsApp URL (Replace '1234567890' with your WhatsApp number)
+                const whatsappURL = `https://wa.me/7799921114?text=${encodeURIComponent(message)}`;
+
+                // Open WhatsApp chat
+                window.open(whatsappURL, "_blank");
+            });
+            form.reset();
+        });
+
+    </script>
+
+</body>
+
+</html>
