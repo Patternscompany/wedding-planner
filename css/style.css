@@ -2365,7 +2365,7 @@ a.ui-button:active,
   /* style for navigation less than 992px */
   /*navbar collaps less then 992px*/
   /*** cart-search-contact ***/
-  background-color: #fff;
+  background-color: rgb(31, 28, 28);
   z-index: 99;
 }
 
@@ -2378,7 +2378,9 @@ a.ui-button:active,
 .wpo-site-header .navbar-brand {
   position: relative;
 }
-
+.navbar-brand h2{
+  color: #fff;
+}
 @media (max-width: 991px) {
   .wpo-site-header .navbar-brand {
     margin-right: 0;
