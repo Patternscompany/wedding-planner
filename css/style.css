@@ -1090,7 +1090,7 @@ a.ui-button:active,
 }
 
 .gallery_banner {
-  background: url(../images/Gallery-banner.jpg) no-repeat center top/cover;
+  background: url(../images/Gallery_Hero_img.jpeg) no-repeat center top/cover;
   min-height: 360px;
   position: relative;
   display: -webkit-box;
@@ -1108,7 +1108,7 @@ a.ui-button:active,
 }
 
 .about_banner {
-  background: url(../images/About.jpg) no-repeat center top/cover;
+  background: url(../images/About_img.jpg) no-repeat center top/cover;
   min-height: 360px;
   position: relative;
   display: -webkit-box;
