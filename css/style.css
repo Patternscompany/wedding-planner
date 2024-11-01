@@ -11861,6 +11861,7 @@ wpo-hero-slider-s4
 
 .wpo-Service-section-s3 .wpo-Service-item .wpo-Service-img img {
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .wpo-Service-img img{
