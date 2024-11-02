@@ -6743,7 +6743,8 @@ wpo-hero-slider-s4
   line-height: 60px;
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: #ffffff9c;
+  border-radius: 30rem;
 }
 
 @media (max-width: 1200px) {
@@ -11875,7 +11876,7 @@ wpo-hero-slider-s4
 }
 
 .wpo-Service-img img{
-  height: 200px !important;
+  height: 400px !important;
 }
 
 .wpo-Service-section-s3 .wpo-Service-item .wpo-Service-text a {
