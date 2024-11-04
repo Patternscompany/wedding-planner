@@ -20579,6 +20579,8 @@ wpo-hero-slider-s4
   height: 180px;
   border-radius: 5%;
   transition: transform 0.4s ease; 
+  margin: 5px;
+  
 }
 
 .hover-effect:hover {
