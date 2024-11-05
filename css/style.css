@@ -20465,7 +20465,7 @@ wpo-hero-slider-s4
     width: 100%;
     height: 180px;
     border-radius: 5%;
-    margin: 10px;
+    margin: 30px;
     transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
 
@@ -20576,13 +20576,10 @@ wpo-hero-slider-s4
 
 .hover-effect {
   width: 100%;
-  height: 180px;
+  height: 300px;
   border-radius: 5%;
   transition: transform 0.4s ease; 
-  margin: 5px;
-  
-  
-  
+  margin: 10px;
 }
 
 .hover-effect:hover {
