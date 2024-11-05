@@ -20580,6 +20580,7 @@ wpo-hero-slider-s4
   border-radius: 5%;
   transition: transform 0.4s ease; 
   margin: 10px;
+  object-fit: cover;
 }
 
 .hover-effect:hover {
