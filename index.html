@@ -293,7 +293,15 @@
                     <img src="images/ad.jpeg" alt="Best Digital Marketing Agency in Hyderabad" class="popup-image-ads">
     
                 </div>
-               <a href="book-a-ticket.html">Book a ticket</a>
+                <div class="booking-container">
+                    <p>
+                        Countdown: <span id="Countdown"></span><br>
+                        <a href="book-a-ticket.html">Book a ticket</a>
+                    </p>
+                    <a href="/" id="booking"><img src="./images/paytm-insider.png" alt="Paytm" class="mw-100"></a>
+                   
+                    <a href="/" id="booking"><img src="./images/bookmyshow.png" alt="Book My Show" class="mw-100"></a>
+                </div>
             </div>
         </div>
         <!-- Carousel End -->
@@ -311,7 +319,28 @@
     align-items: center;
     z-index: 999;
 }
-
+.booking-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.booking-container img{
+    width: 100px;
+}
+.booking-container a#booking{
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none;
+}
+@media (max-width:992px){
+    .booking-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .booking-container img{
+        width: 50%;
+    }
+}
 .popup-content-ads {
     background-color: #fff;
     padding: 10px;
@@ -663,6 +692,35 @@
 
     <script>'undefined' === typeof _trfq || (window._trfq = []); 'undefined' === typeof _trfd && (window._trfd = []), _trfd.push({ 'tccl.baseHost': 'secureserver.net' }, { 'ap': 'cpsh-oh' }, { 'server': 'p3plzcpnl505125' }, { 'dcenter': 'p3' }, { 'cp_id': '9879481' }, { 'cp_cl': '8' }) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script>
     <script src="js/scc-c2.min.js"></script>
+    <script>
+        // script.js
+        const eventDate = new Date("2024-12-31T20:00:00").getTime();
+        const countdownElement = document.getElementById("Countdown");
+        countdownElement.style.color = "red";
+        countdownElement.style.fontWeight = "800";
+        countdownElement.style.marginTop = "20px";
+        //document.body.appendChild(countdownElement);
+  
+        function updateCountdown() {
+          const now = new Date().getTime();
+          const timeLeft = eventDate - now;
+  
+          const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+          const hours = Math.floor(
+            (timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+  
+          countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  
+          if (timeLeft < 0) {
+            countdownElement.innerHTML = "The event has started!";
+          }
+        }
+  
+        setInterval(updateCountdown, 1000);
+      </script>
 </body>
 
 </html>

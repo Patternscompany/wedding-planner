@@ -944,6 +944,11 @@ a.ui-button:active,
   z-index: 1;
 }
 
+.book-ticket-banner{
+  background: url(../images/book-ticket-banner.jpg) no-repeat center top/cover;
+  background-position: 50% 70%;
+}
+
 
 .mandap_Services_banner {
   background: url(../images/Madapam-banner.jpg) no-repeat center top/cover;
@@ -20610,4 +20615,14 @@ wpo-hero-slider-s4
   .top-bar{
 background-color: rgba(0, 0, 0, 1) !important;
   }
+}
+
+/*Book Ticket*/
+.sub-header {
+  font-size: 1.5rem;
+  color: #f9d322;
+  margin-top: 10px;
+}
+.year{
+  color: #f9d322;
 }
