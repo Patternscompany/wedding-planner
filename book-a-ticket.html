@@ -406,11 +406,57 @@
               <div class="d-flex justify-content-center align-content-center">
                 <img src="images/qrcode.png" alt="">
               </div>
+              <div class="text-center upi">
+                <p>UPI ID: <span id="upiID">7799921114@ybl</span> 
+                    <i class="fa fa-copy" onclick="copyToClipboard()"></i>
+                 </p>
+                 
+              </div>
+              <p id="successful">UPI ID copied to clipboard!</p>
           </div>
         </div>
       </div>
-
+      <script>
+        function copyToClipboard() {
+            // Get the text content of the span element
+            const upiID = document.getElementById("upiID").textContent;
+    const success= document.getElementById("successful");
+            // Use the Clipboard API to copy the text
+            navigator.clipboard.writeText(upiID)
+                .then(() => {
+                    success.style.display="block";
+                })
+                .catch((err) => {
+                    success.style.display="none";
+                });
+        }
+    </script>
       <style>
+        .qr-code #successful{
+            font-size: 1rem;
+            color: #fcce56;
+            display: none;
+        }
+        .qr-code{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .qr-code .fa-copy{
+            margin-left: 0.6rem;
+            cursor: pointer;
+        }
+        .qr-code .upi{
+            border: 2px dashed #fcce56;
+            width: fit-content;
+        }
+        .qr-code p{
+           padding: 0.5rem 1rem;
+font-size: 1.5rem;
+font-weight: bold;
+width: fit-content;
+        }
         .qr-code img{
 width: 200px;
         }
