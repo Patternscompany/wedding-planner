@@ -2666,6 +2666,7 @@ a.ui-button:active,
 
 .wpo-site-header #navbar ul {
   list-style: none;
+  align-items: center;
 }
 
 @media (max-width: 991px) and (max-width: 991px) {
@@ -25392,7 +25393,7 @@ wpo-hero-slider-s4
   padding: 18px 10px 10px 10px;
 }
 .book-a-ticket-btn a {
-  background-color: #ffffff;
+  background-color:#f9d322;
   border-radius: 15px;
   padding: 10px 15px;
   color: #000;
